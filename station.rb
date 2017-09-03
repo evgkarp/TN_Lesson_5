@@ -1,6 +1,5 @@
 class Station
-  extend InstanceCounter::ClassMethods
-  include InstanceCounter::InstanceMethods
+  include InstanceCounter
 
   attr_reader :name, :trains
   

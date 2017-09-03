@@ -1,7 +1,6 @@
 class Wagon
   include Maker
-  extend InstanceCounter::ClassMethods
-  include InstanceCounter::InstanceMethods
+  include InstanceCounter
 
   attr_reader :type
 

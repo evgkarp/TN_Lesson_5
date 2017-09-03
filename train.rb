@@ -1,7 +1,6 @@
 class Train
   include Maker
-  extend InstanceCounter::ClassMethods
-  include InstanceCounter::InstanceMethods
+  include InstanceCounter
 
   attr_reader :number, :speed, :type, :wagons
 
